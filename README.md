@@ -5,8 +5,8 @@
 Clone the repo:
 
 ```bash
-git clone --depth 1 https://github.com/antrikshdua/spiralyze-assesment.git
-cd node-express-mongoose-typescript-boilerplate
+git clone https://github.com/antrikshdua/spiralyze-assesment.git
+
 ```
 
 Install the dependencies:
@@ -14,6 +14,12 @@ Install the dependencies:
 ```bash
 npm install
 ```
+
+
+```bash
+nodemon src/boot.js
+```
+
 
 Set the environment variables:
 
