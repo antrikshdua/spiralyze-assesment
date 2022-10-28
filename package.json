@@ -1,0 +1,37 @@
+{
+  "name": "tournament-api",
+  "version": "1.0.0",
+  "description": "tournament micro services api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon index.js",
+    "tp": "nodemon --inspect ./sample/tournamentPublisher",
+    "ts": "nodemon --inspect ./sample/tournamentSubscriber"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.1.254:7990/scm/~jay.j/tournament-api.git"
+  },
+  "author": "Jay Jariwala",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-mung": "^0.5.1",
+    "http": "^0.0.1-security",
+    "ioredis": "^4.27.6",
+    "joi": "^14.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "log4js": "^6.3.0",
+    "mongoose": "^5.13.2",
+    "xxtea-node": "^1.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0"
+  }
+}
